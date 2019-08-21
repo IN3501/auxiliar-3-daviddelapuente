@@ -6,3 +6,6 @@ def index(request):
 
 def inputs(request):
 	return render(request, 'inputs.html')
+
+def formulario(request):
+	return render(request,'formulario.html')
